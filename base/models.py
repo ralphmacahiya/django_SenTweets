@@ -32,7 +32,7 @@ class Room(models.Model):
     header_image = models.ImageField(null=True, blank = True)
 
     class Meta:
-        ordering = ['-updated', '-created']
+        ordering = ['created']
 
     def __str__(self):
         return self.name
