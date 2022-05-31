@@ -1,0 +1,1 @@
+web gunicorn sentweets.wsgi:application --log-file -
